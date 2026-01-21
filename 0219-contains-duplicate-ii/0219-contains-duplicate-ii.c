@@ -1,38 +1,47 @@
-typedef struct {
-    int value;
-    int index;
-    bool occupied;
-}HashEntry;
-int getHash(int key , int size) {
-    int h = key % size;
-    return (h < 0) ? h + size : h;
-}
+typedef struct Node {
+    int val;
+    int last_index;
+    struct Node* next;
+} Node;
+
+#define HASH_SIZE 10007
+
 bool containsNearbyDuplicate(int* nums, int numsSize, int k) {
-    if (numsSize <= 1 ) return false;
+    Node** table = (Node**)calloc(HASH_SIZE , sizeof(Node*));
+    bool found = false;
 
-    int size = numsSize * 2;
-    HashEntry* table = calloc(size , sizeof(HashEntry));
-    for( int i = 0 ; i < numsSize ; i++) {
-        int h = getHash(nums[i] , size);
+    for(int i = 0 ; i < numsSize ; i++) {
+        unsigned int key = abs(nums[i]) % HASH_SIZE;
+        Node* curr = table[key];
 
-        while ( table[h].occupied) {
-            if( table[h].value == nums[i])
-            {
-                if (i - table[h].index <= k) {
-                    free(table);
-                    return true;
+        while (curr) {
+            if (curr->val == nums[i]) {
+                if(i - curr->last_index <= k) {
+                    found = true;
+                    goto cleanup;
                 }
-                table[h].index = i;
-                goto next_num;
-
+                curr->last_index = i;
+                goto next_element;
             }
-            h = (h + 1) % size;
+            curr = curr->next;
         }
-        table[h].value = nums[i];
-        table[h].index = i;
-        table[h].occupied = true;
-        next_num:;
+        Node* newNode = (Node*)malloc(sizeof(Node));
+        newNode->val = nums[i];
+        newNode->last_index = i;
+        newNode->next = table[key];
+        table[key] = newNode;
+
+        next_element:;
+    }
+    cleanup:
+    for (int i = 0 ; i < HASH_SIZE ; i++) {
+        Node* curr = table[i];
+        while (curr) {
+            Node* temp = curr;
+            curr = curr->next;
+            free(temp);
+        }
     }
     free(table);
-    return false;
+    return found;
 }
