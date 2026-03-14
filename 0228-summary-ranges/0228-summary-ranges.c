@@ -2,32 +2,22 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 char** summaryRanges(int* nums, int numsSize, int* returnSize) {
-    if (numsSize == 0) {
-        *returnSize = 0;
-        return NULL;
-
-    }
     char** result = (char**)malloc(numsSize * sizeof(char*));
-    int count = 0;
-    for (int i = 0; i < numsSize ; i++) {
+    *returnSize = 0;
+    if(numsSize == 0) return result;
+    for( int i = 0 ; i < numsSize ; i++) {
         int start = i;
-        while (i +  1 < numsSize && nums[i + 1 ] == nums[i] +  1)
+        while( i + 1 < numsSize && (long long)nums[i + 1] == (long long)nums[i] + 1)
     {
         i++;
     }
-    int end = i;
-    char* buffer = (char*)malloc(25 * sizeof(char));
-
-    if( start == end) {
-        sprintf(buffer , "%d" , nums[start]);
-
+    char* temp = (char*)malloc(25 * sizeof(char));
+    if(start == i ) {
+        sprintf(temp , "%d" , nums[start]);
     } else {
-        sprintf(buffer , "%d->%d" , nums[start] , nums[end]);
-
+        sprintf(temp , "%d->%d" , nums[start] , nums[i]);
     }
-    result[count++] = buffer;
+    result[(*returnSize)++] = temp;
     }
-
-    *returnSize = count;
     return result;
 }
