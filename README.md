@@ -8,6 +8,7 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0231-power-of-two](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0231-power-of-two/) | Easy |
 | [0492-construct-the-rectangle](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0492-construct-the-rectangle/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
@@ -25,4 +26,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0226-invert-binary-tree](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0226-invert-binary-tree/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0231-power-of-two/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->
