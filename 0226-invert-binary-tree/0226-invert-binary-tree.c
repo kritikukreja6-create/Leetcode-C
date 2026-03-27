@@ -7,7 +7,7 @@
  * };
  */
 struct TreeNode* invertTree(struct TreeNode* root) {
-    if(root == NULL) {
+    if (root == NULL){
         return NULL;
     }
     struct TreeNode* temp = root->left;
@@ -16,5 +16,4 @@ struct TreeNode* invertTree(struct TreeNode* root) {
     invertTree(root->left);
     invertTree(root->right);
     return root;
-    
 }
