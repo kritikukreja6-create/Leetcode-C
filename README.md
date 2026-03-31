@@ -4,6 +4,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0228-summary-ranges](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0228-summary-ranges/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -34,4 +35,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0231-power-of-two/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 <!---LeetCode Topics End-->
