@@ -43,4 +43,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0008-string-to-integer-atoi/) | Medium |
 <!---LeetCode Topics End-->
