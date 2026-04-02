@@ -34,6 +34,7 @@
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0010-regular-expression-matching/) | Hard |
 | [0231-power-of-two](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0231-power-of-two/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -47,4 +48,9 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0010-regular-expression-matching](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0010-regular-expression-matching/) | Hard |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0010-regular-expression-matching](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0010-regular-expression-matching/) | Hard |
 <!---LeetCode Topics End-->
