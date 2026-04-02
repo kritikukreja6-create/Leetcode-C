@@ -5,6 +5,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0011-container-with-most-water](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0011-container-with-most-water/) | Medium |
 | [0228-summary-ranges](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0228-summary-ranges/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -53,4 +54,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0010-regular-expression-matching](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0010-regular-expression-matching/) | Hard |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0011-container-with-most-water/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/kritikukreja6-create/Leetcode-C/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
